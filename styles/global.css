@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	/* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+	font-family: Inter;
+}
+
+ul,
+ol {
+	margin: 0; /* Remove margens padrão */
+	padding: 0; /* Remove espaçamento interno padrão */
+	list-style: none; /* Remove marcadores (bolinhas, números, etc.) */
+}

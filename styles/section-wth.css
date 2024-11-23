@@ -1,0 +1,47 @@
+.welcome-to-home {
+	width: 100%;
+	height: 300px;
+	padding: 20px;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 50px;
+	background: rgb(124, 136, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(124, 136, 255, 0.42200630252100846) 0%,
+		rgba(214, 232, 255, 1) 100%
+	);
+	border-radius: 20px;
+}
+
+.container h1 {
+	font-size: 62px;
+}
+
+.container .welcome-text {
+	font: 300;
+	font-weight: 600;
+	width: 200px;
+}
+
+.container .welcome-text-description {
+	width: 600px;
+	font-weight: 300;
+}
+
+.house-image {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	right: 30px;
+	top: 86px;
+	z-index: 10;
+	object-fit: cover;
+}
