@@ -1,6 +1,6 @@
 .welcome-to-home {
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	padding: 20px;
 }
 
@@ -15,7 +15,7 @@
 	background: rgb(124, 136, 255);
 	background: linear-gradient(
 		90deg,
-		rgba(124, 136, 255, 0.42200630252100846) 0%,
+		rgba(124, 136, 255, 0.422) 0%,
 		rgba(214, 232, 255, 1) 100%
 	);
 	border-radius: 20px;
@@ -29,6 +29,7 @@
 	font: 300;
 	font-weight: 600;
 	width: 200px;
+	padding-top: 20px;
 }
 
 .container .welcome-text-description {
@@ -44,4 +45,168 @@
 	top: 86px;
 	z-index: 10;
 	object-fit: cover;
+}
+
+/* Estilos específicos para as larguras de tela */
+@media (min-width: 1080px) and (max-width: 1920px) {
+	.house-image {
+		right: 40px;
+		top: 120px;
+		width: 800px;
+	}
+
+	.welcome-text {
+		font-size: 22px;
+	}
+
+	.container h1 {
+		font-size: 78px;
+	}
+
+	.container .welcome-text-description {
+		font-size: 22px;
+		width: 900px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1880px) {
+	.house-image {
+		right: 40px;
+		top: 120px;
+		width: 800px;
+	}
+
+	.welcome-text {
+		font-size: 22px;
+	}
+
+	.container h1 {
+		font-size: 78px;
+	}
+
+	.container .welcome-text-description {
+		font-size: 22px;
+		width: 900px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1776px) {
+	.house-image {
+		right: 40px;
+		top: 120px;
+		width: 800px;
+	}
+
+	.welcome-text {
+		font-size: 22px;
+	}
+
+	.container h1 {
+		font-size: 78px;
+	}
+
+	.container .welcome-text-description {
+		font-size: 22px;
+		width: 800px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1712px) {
+	.container h1 {
+		font-size: 68px;
+	}
+
+	.container .welcome-text-description {
+		width: 700px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1607px) {
+	.container h1 {
+		font-size: 58px;
+	}
+
+	.container .welcome-text-description {
+		width: 600px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1505px) {
+	.container h1 {
+		font-size: 48px;
+	}
+
+	.container .welcome-text-description {
+		width: 500px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1411px) {
+	.container h1 {
+		font-size: 44px;
+	}
+
+	.container .welcome-text-description {
+		width: 450px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1353px) {
+	.house-image {
+		width: 700px;
+	}
+
+	.container h1 {
+		font-size: 44px;
+	}
+
+	.container .welcome-text-description {
+		width: 450px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1262px) {
+	.house-image {
+		width: 700px;
+		right: 10px;
+	}
+	.container {
+		gap: 10px;
+	}
+
+	.container h1 {
+		font-size: 58px;
+		width: 400px;
+		line-height: 0.9;
+	}
+
+	.container .welcome-text-description {
+		font-size: 20px;
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		white-space: normal;
+		line-height: 1.2;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1153px) {
+	.container h1 {
+		font-size: 50px;
+		width: 400px;
+		line-height: 0.9;
+	}
+
+	.container .welcome-text-description {
+		font-size: 20px;
+		width: 100%;
+		max-width: 350px;
+		height: auto;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		white-space: normal;
+		line-height: 1.2;
+	}
 }
