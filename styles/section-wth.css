@@ -258,3 +258,71 @@
 		line-height: 1.2;
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+	.house-image {
+		width: 550px;
+		right: 10px;
+		top: 150px;
+	}
+
+	.container {
+		height: 430px;
+		gap: 8px;
+	}
+
+	.container h1 {
+		font-size: 58px;
+		width: 370px;
+		line-height: 0.9;
+	}
+
+	.container .welcome-text {
+		font-size: 22px;
+	}
+
+	.container .welcome-text-description {
+		font-size: 20px;
+		width: 100%;
+		max-width: 320px;
+		height: auto;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		white-space: normal;
+		line-height: 1.2;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+	.house-image {
+		width: 550px;
+		right: 10px;
+		top: 150px;
+	}
+
+	.container {
+		height: 430px;
+		gap: 8px;
+	}
+
+	.container h1 {
+		font-size: 58px;
+		width: 340px;
+		line-height: 0.9;
+	}
+
+	.container .welcome-text {
+		font-size: 22px;
+	}
+
+	.container .welcome-text-description {
+		font-size: 20px;
+		width: 100%;
+		max-width: 320px;
+		height: auto;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		white-space: normal;
+		line-height: 1.2;
+	}
+}
