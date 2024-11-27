@@ -1,88 +1,102 @@
 .cards {
-	width: 100%;
-	height: auto;
-	margin-top: 120px;
-	padding: 50px;
+  width: 100%;
+  height: auto;
+  margin-top: 190px;
+  padding: 0px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-session {
+  width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+  scroll-behavior: smooth;
+}
+
+.text-session h1 {
+  font-size: 56px;
 }
 
 .container-cards {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	gap: 3rem;
-	justify-content: flex-start;
-	align-items: center;
-	flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .card {
-	width: 400px;
-	border-radius: 20px;
-	overflow: hidden;
-	box-sizing: border-box;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	background-color: white;
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .card img {
-	width: 100%;
-	height: 200px;
-	object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-content {
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title-card {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .star-card {
-	width: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 7px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 
 .star-card p {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .star-card svg {
-	color: #eab308;
+  color: #eab308;
 }
 
 .description-card {
-	font-size: 13px;
-	color: #52525b;
+  font-size: 13px;
+  color: #52525b;
 }
 
 .price-card {
-	margin-top: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .price-card p {
-	font-weight: 600;
-	padding-left: 5px;
+  font-weight: 600;
+  padding-left: 5px;
 }
 
 .price-card button {
-	width: 70px;
-	height: 30px;
-	border: none;
-	outline: none;
-	background-color: white;
-	padding: 10 15px;
-	font-weight: 600;
-	/* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
-	font-family: Inter;
-	cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10 15px;
+  font-weight: 600;
+  /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+  font-family: Inter;
+  cursor: pointer;
 }

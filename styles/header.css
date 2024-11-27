@@ -1,162 +1,162 @@
 header {
-	width: 100%;
-	height: auto;
-	padding: 20px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
 }
 
 .background-header {
-	width: 100%;
-	height: 60px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px;
-	background-color: rgba(228, 228, 231, 0.89);
-	border-radius: 20px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(228, 228, 231, 0.89);
+  border-radius: 20px;
 }
 
 .logo-header {
-	width: 100px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-header p {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .search-header {
-	width: 330px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #18181b;
-	border-radius: 20px;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #18181b;
+  border-radius: 20px;
 }
 
 .search-header ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .search-header ul li {
-	color: #a1a1aa;
-	cursor: pointer;
-	font-size: 13px;
-	line-height: 40px;
-	transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+  color: #a1a1aa;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 40px;
+  transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
 .search-header ul li:hover {
-	color: #f4f4f5;
-	font-size: 14px;
+  color: #f4f4f5;
+  font-size: 14px;
 }
 
 .search-header ul li:hover {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 .search-icon-container {
-	width: 25px;
-	height: 25px;
-	background-color: #f4f4f5;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	outline: none;
-	border: none;
-	transition: 0.3s ease;
+  width: 25px;
+  height: 25px;
+  background-color: #f4f4f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  transition: 0.3s ease;
 }
 
 .search-icon-container:hover {
-	width: 30px;
-	height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .other-buttons-for-header {
-	width: auto;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .other-buttons-for-header ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	font-size: 14px;
-	font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .other-buttons-for-header ul li {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
 .other-buttons-for-header ul li svg {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .other-buttons-for-header ul li button {
-	width: 160px;
-	height: 35px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
-	font-family: Inter;
-	font-weight: 600;
-	font-size: 13px;
-	padding: 0 10px;
-	border-radius: 20px;
-	outline: 1px solid #a1a1aa;
-	border: none;
-	background-color: #f4f4f5;
-	transition: background-color 0.3s ease;
+  width: 160px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0 10px;
+  border-radius: 20px;
+  outline: 1px solid #a1a1aa;
+  border: none;
+  background-color: #f4f4f5;
+  transition: background-color 0.3s ease;
 }
 
 .other-buttons-for-header ul li button:hover {
-	background-color: #e4e4e7;
+  background-color: #e4e4e7;
 }
 
 @media (min-width: 1080px) and (max-width: 1920px) {
-	.other-buttons-for-header li {
-		font-size: 16px;
-	}
+  .other-buttons-for-header li {
+    font-size: 16px;
+  }
 
-	.search-header {
-		margin-left: 150px;
-	}
+  .search-header {
+    margin-left: 150px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1366px) {
-	.other-buttons-for-header li {
-		font-size: 16px;
-	}
+  .other-buttons-for-header li {
+    font-size: 16px;
+  }
 
-	.search-header {
-		margin-left: 150px;
-	}
+  .search-header {
+    margin-left: 150px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	.search-header {
-		margin-left: 40px;
-	}
+  .search-header {
+    margin-left: 40px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 873) {
-	.search-header {
-		margin: 0px;
-	}
+  .search-header {
+    margin: 0px;
+  }
 }

@@ -1,0 +1,89 @@
+.container-home {
+  width: 100%;
+  height: 1000px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-home {
+  width: 70%;
+  height: 100%;
+  background-color: rgba(228, 228, 231, 0.89);
+  border-radius: 20px;
+}
+
+.content-background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+#image-home-one {
+  width: 700px;
+  height: auto;
+  padding: 10px 0px;
+  border-radius: 20px;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.content-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-card h1 {
+  font-size: 32px;
+}
+
+.mini-card {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.content-mini-card {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.content-mini-card ul {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.content-mini-card ul li {
+  width: 102px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #111827;
+  border-radius: 5px;
+  color: #fafafa;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-share-and-heart {
+  display: flex;
+  gap: 30px;
+}
+
+.description {
+  width: 1000px;
+  height: auto;
+}

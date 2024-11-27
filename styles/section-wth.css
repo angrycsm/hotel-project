@@ -1,328 +1,345 @@
 .welcome-to-home {
-	width: 100%;
-	height: 400px;
-	padding: 20px;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
 }
 
 .container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0 50px;
-	background: rgb(124, 136, 255);
-	background: linear-gradient(
-		90deg,
-		rgba(124, 136, 255, 0.422) 0%,
-		rgba(214, 232, 255, 1) 100%
-	);
-	border-radius: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  background: rgb(35, 35, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 136, 255, 0.422) 0%,
+    rgba(214, 232, 255, 1) 100%
+  );
+  border-radius: 20px;
 }
 
 .container h1 {
-	font-size: 62px;
+  font-size: 62px;
 }
 
 .container .welcome-text {
-	font: 300;
-	font-weight: 600;
-	width: 200px;
-	padding-top: 20px;
+  font: 300;
+  font-weight: 600;
+  width: 200px;
 }
 
 .container .welcome-text-description {
-	width: 600px;
-	font-weight: 300;
+  width: 600px;
+  font-weight: 300;
+}
+
+.container .buy-now {
+  width: 120px;
+  height: 35px;
+  margin: 20px 0px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #fafafa;
+  cursor: pointer;
+  /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.container .buy-now:hover {
+  background-color: #e4e4e7;
 }
 
 .house-image {
-	width: 600px;
-	height: auto;
-	position: absolute;
-	right: 30px;
-	top: 90px;
-	z-index: 10;
-	object-fit: cover;
+  width: 600px;
+  height: auto;
+  position: absolute;
+  right: 30px;
+  top: 90px;
+  z-index: 10;
+  object-fit: cover;
 }
 
 /* Estilos específicos para as larguras de tela */
 @media (min-width: 1080px) and (max-width: 1920px) {
-	.house-image {
-		right: 40px;
-		top: 90px;
-		width: 800px;
-	}
+  .house-image {
+    right: 40px;
+    top: 90px;
+    width: 800px;
+  }
 
-	.welcome-text {
-		font-size: 22px;
-	}
+  .welcome-text {
+    font-size: 22px;
+  }
 
-	.container h1 {
-		font-size: 78px;
-	}
+  .container h1 {
+    font-size: 78px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 22px;
-		width: 900px;
-	}
+  .container .welcome-text-description {
+    font-size: 22px;
+    width: 900px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1880px) {
-	.house-image {
-		right: 40px;
-		top: 90px;
-		width: 800px;
-	}
+  .house-image {
+    right: 40px;
+    top: 90px;
+    width: 800px;
+  }
 
-	.welcome-text {
-		font-size: 22px;
-	}
+  .welcome-text {
+    font-size: 22px;
+  }
 
-	.container h1 {
-		font-size: 78px;
-	}
+  .container h1 {
+    font-size: 78px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 22px;
-		width: 900px;
-	}
+  .container .welcome-text-description {
+    font-size: 22px;
+    width: 900px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1776px) {
-	.house-image {
-		right: 40px;
-		top: 90px;
-		width: 800px;
-	}
+  .house-image {
+    right: 40px;
+    top: 90px;
+    width: 800px;
+  }
 
-	.welcome-text {
-		font-size: 22px;
-	}
+  .welcome-text {
+    font-size: 22px;
+  }
 
-	.container h1 {
-		font-size: 78px;
-	}
+  .container h1 {
+    font-size: 78px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 22px;
-		width: 800px;
-	}
+  .container .welcome-text-description {
+    font-size: 22px;
+    width: 800px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1712px) {
-	.container h1 {
-		font-size: 68px;
-	}
+  .container h1 {
+    font-size: 68px;
+  }
 
-	.container .welcome-text-description {
-		width: 700px;
-	}
+  .container .welcome-text-description {
+    width: 700px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1607px) {
-	.container h1 {
-		font-size: 58px;
-	}
+  .container h1 {
+    font-size: 58px;
+  }
 
-	.container .welcome-text-description {
-		width: 600px;
-	}
+  .container .welcome-text-description {
+    width: 600px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1505px) {
-	.container h1 {
-		font-size: 48px;
-	}
+  .container h1 {
+    font-size: 48px;
+  }
 
-	.container .welcome-text-description {
-		width: 500px;
-	}
+  .container .welcome-text-description {
+    width: 500px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1411px) {
-	.container h1 {
-		font-size: 44px;
-	}
+  .container h1 {
+    font-size: 44px;
+  }
 
-	.container .welcome-text-description {
-		width: 450px;
-	}
+  .container .welcome-text-description {
+    width: 450px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1366px) {
-	.house-image {
-		width: 700px;
-		top: 90px;
-	}
+  .house-image {
+    width: 700px;
+    top: 90px;
+  }
 
-	.container h1 {
-		font-size: 44px;
-	}
+  .container h1 {
+    font-size: 44px;
+  }
 
-	.container .welcome-text-description {
-		width: 450px;
-	}
+  .container .welcome-text-description {
+    width: 450px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1353px) {
-	.house-image {
-		width: 700px;
-	}
+  .house-image {
+    width: 700px;
+  }
 
-	.container h1 {
-		font-size: 44px;
-	}
+  .container h1 {
+    font-size: 44px;
+  }
 
-	.container .welcome-text-description {
-		width: 450px;
-	}
+  .container .welcome-text-description {
+    width: 450px;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1262px) {
-	.house-image {
-		width: 700px;
-		right: 10px;
-	}
-	.container {
-		gap: 10px;
-	}
+  .house-image {
+    width: 700px;
+    right: 10px;
+  }
+  .container {
+    gap: 10px;
+  }
 
-	.container h1 {
-		font-size: 58px;
-		width: 400px;
-		line-height: 0.9;
-	}
+  .container h1 {
+    font-size: 58px;
+    width: 400px;
+    line-height: 0.9;
+  }
 
-	.container .welcome-text-description {
-		font-size: 20px;
-		width: 100%;
-		max-width: 400px;
-		height: auto;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		white-space: normal;
-		line-height: 1.2;
-	}
+  .container .welcome-text-description {
+    font-size: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 1080px) and (max-width: 1153px) {
-	.container h1 {
-		font-size: 50px;
-		width: 400px;
-		line-height: 0.9;
-	}
+  .container h1 {
+    font-size: 50px;
+    width: 400px;
+    line-height: 0.9;
+  }
 
-	.container .welcome-text-description {
-		font-size: 20px;
-		width: 100%;
-		max-width: 350px;
-		height: auto;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		white-space: normal;
-		line-height: 1.2;
-	}
+  .container .welcome-text-description {
+    font-size: 20px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1079px) {
-	.house-image {
-		width: 700px;
-		right: 10px;
-	}
+  .house-image {
+    width: 700px;
+    right: 10px;
+  }
 
-	.container {
-		height: 430px;
-		gap: 8px;
-	}
+  .container {
+    height: 430px;
+    gap: 8px;
+  }
 
-	.container h1 {
-		font-size: 58px;
-		width: 350px;
-		line-height: 0.9;
-	}
+  .container h1 {
+    font-size: 58px;
+    width: 350px;
+    line-height: 0.9;
+  }
 
-	.container .welcome-text {
-		font-size: 22px;
-	}
+  .container .welcome-text {
+    font-size: 22px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 20px;
-		width: 100%;
-		max-width: 320px;
-		height: auto;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		white-space: normal;
-		line-height: 1.2;
-	}
+  .container .welcome-text-description {
+    font-size: 20px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
-	.house-image {
-		width: 550px;
-		right: 10px;
-		top: 150px;
-	}
+  .house-image {
+    width: 550px;
+    right: 10px;
+    top: 150px;
+  }
 
-	.container {
-		height: 430px;
-		gap: 8px;
-	}
+  .container {
+    height: 430px;
+    gap: 8px;
+  }
 
-	.container h1 {
-		font-size: 58px;
-		width: 370px;
-		line-height: 0.9;
-	}
+  .container h1 {
+    font-size: 58px;
+    width: 370px;
+    line-height: 0.9;
+  }
 
-	.container .welcome-text {
-		font-size: 22px;
-	}
+  .container .welcome-text {
+    font-size: 22px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 20px;
-		width: 100%;
-		max-width: 320px;
-		height: auto;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		white-space: normal;
-		line-height: 1.2;
-	}
+  .container .welcome-text-description {
+    font-size: 20px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
-	.house-image {
-		width: 550px;
-		right: 10px;
-		top: 150px;
-	}
+  .house-image {
+    width: 550px;
+    right: 10px;
+    top: 150px;
+  }
 
-	.container {
-		height: 430px;
-		gap: 8px;
-	}
+  .container {
+    height: 430px;
+    gap: 8px;
+  }
 
-	.container h1 {
-		font-size: 58px;
-		width: 340px;
-		line-height: 0.9;
-	}
+  .container h1 {
+    font-size: 58px;
+    width: 340px;
+    line-height: 0.9;
+  }
 
-	.container .welcome-text {
-		font-size: 22px;
-	}
+  .container .welcome-text {
+    font-size: 22px;
+  }
 
-	.container .welcome-text-description {
-		font-size: 20px;
-		width: 100%;
-		max-width: 320px;
-		height: auto;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		white-space: normal;
-		line-height: 1.2;
-	}
+  .container .welcome-text-description {
+    font-size: 20px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.2;
+  }
 }
